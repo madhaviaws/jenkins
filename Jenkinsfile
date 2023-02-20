@@ -55,3 +55,4 @@ pipeline {
 // Environment variables for SSH UserName & Password
 // SSH_CRED_USR
 // SSH_CRED_PSW
+// poll scm added
