@@ -7,9 +7,9 @@ pipeline {
   triggers { pollSCM('*/2 * * * *') }
    //triggers { cron('*/2 * * * *') }
 
-//    tools {
-  //      maven 'maven-3.8.5' 
-    //}
+    tools {
+        maven 'maven-3.8.5' 
+    }
    
    parameters {
         string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
