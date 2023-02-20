@@ -1,7 +1,8 @@
 pipeline {
-    agent { 
-        label 'ANSIBLE' 
-        } 
+    agent any
+    //{ 
+      //  label 'ANSIBLE' 
+        //} 
     stages {
         stage('Parallel') {
             parallel {
