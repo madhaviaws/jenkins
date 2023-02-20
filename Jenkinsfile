@@ -21,7 +21,8 @@ pipeline {
     stages {
         stage('Hai') {
             steps {
-                sh "echo ${ENV_URL} "  
+                sh "echo ${ENV_URL} " 
+                sh "mvn -v" 
                     
             }
         }
